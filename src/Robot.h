@@ -8,6 +8,7 @@
 #pragma once
 
 #include <string>
+#include "EncoderPair.h"
 
 #include <Drive/DifferentialDrive.h>
 #include <Joystick.h>

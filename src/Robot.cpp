@@ -11,6 +11,21 @@
 
 #include <SmartDashboard/SmartDashboard.h>
 #include <Timer.h>
+#include <Spark.h>
+#include <SpeedControllerGroup.h>
+#include <Drive/DifferentialDrive.h>
+
+
+frc::Spark LeftFrontMotor(0);
+frc::Spark LeftRearMotor(1);
+frc::Spark RightFrontMotor(2);
+frc::Spark RightRearMotor(3);
+
+frc::SpeedControllerGroup LeftMotors(LeftFrontMotor, LeftRearMotor);
+frc::SpeedControllerGroup RightMotors(RightFrontMotor, RightRearMotor);
+
+EncoderPair *pEncoderPair = new EncoderPair(4, 5, 2, 3);
+
 
 Robot::Robot() {
 	// Note SmartDashboard is not initialized here, wait until
@@ -46,27 +61,8 @@ void Robot::Autonomous() {
 	// this autonomous mode.
 	m_robotDrive.SetSafetyEnabled(false);
 
-	if (autoSelected == kAutoNameCustom) {
-		// Custom Auto goes here
-		std::cout << "Running custom Autonomous" << std::endl;
+	m_robotDrive.ArcadeDrive(1, 1);
 
-		// Spin at half speed for two seconds
-		m_robotDrive.ArcadeDrive(0.0, 0.5);
-		frc::Wait(2.0);
-
-		// Stop robot
-		m_robotDrive.ArcadeDrive(0.0, 0.0);
-	} else {
-		// Default Auto goes here
-		std::cout << "Running default Autonomous" << std::endl;
-
-		// Drive forwards at half speed for two seconds
-		m_robotDrive.ArcadeDrive(-0.5, 0.0);
-		frc::Wait(2.0);
-
-		// Stop robot
-		m_robotDrive.ArcadeDrive(0.0, 0.0);
-	}
 }
 
 /**
@@ -78,9 +74,15 @@ void Robot::OperatorControl() {
 		// Drive with arcade style (use right stick)
 		m_robotDrive.ArcadeDrive(-m_stick.GetY(), m_stick.GetX());
 
+		pEncoderPair->Update();
+
 		// The motors will be updated every 5ms
 		frc::Wait(0.005);
 	}
+}
+
+void DriveStraight(){
+
 }
 
 /**
