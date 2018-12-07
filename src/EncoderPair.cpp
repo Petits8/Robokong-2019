@@ -25,7 +25,7 @@ EncoderPair::EncoderPair(int pinR1, int pinR2, int pinL1, int pinL2){
 	leftEncoder->SetSamplesToAverage(7);
 	leftEncoder->Reset();
 
-	timer = new frc::Timer::Timer();
+	timer = new Timer();
 	rightPositionDelta = leftPositionDelta = rightPositionInitial = leftPositionInitial = rightVelocity = leftVelocity = 0.0;
 
 }

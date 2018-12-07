@@ -14,7 +14,9 @@
 #include <Spark.h>
 #include <SpeedControllerGroup.h>
 #include <Drive/DifferentialDrive.h>
+#include <DriverControl.h>
 
+#define LIFTMOTOR 4
 
 frc::Spark LeftFrontMotor(0);
 frc::Spark LeftRearMotor(1);
@@ -24,7 +26,12 @@ frc::Spark RightRearMotor(3);
 frc::SpeedControllerGroup LeftMotors(LeftFrontMotor, LeftRearMotor);
 frc::SpeedControllerGroup RightMotors(RightFrontMotor, RightRearMotor);
 
+frc::DifferentialDrive m_robotDrive{LeftMotors, RightMotors};
+
 EncoderPair *pEncoderPair = new EncoderPair(4, 5, 2, 3);
+DriverControl *pDriverControl = new DriverControl(true);
+
+frc::Spark *Lift = new Spark(LIFTMOTOR);
 
 
 Robot::Robot() {
@@ -69,14 +76,20 @@ void Robot::Autonomous() {
  * Runs the motors with arcade steering.
  */
 void Robot::OperatorControl() {
+	char buf[1024];
 	m_robotDrive.SetSafetyEnabled(true);
 	while (IsOperatorControl() && IsEnabled()) {
+
 		// Drive with arcade style (use right stick)
-		m_robotDrive.ArcadeDrive(-m_stick.GetY(), m_stick.GetX());
+		m_robotDrive.ArcadeDrive(pDriverControl->GetVectorValue(Y_AXIS), pDriverControl->GetVectorValue(X_AXIS));
+		//sprintf(buf, "Y: %f - X: %f", -pDriverControl->GetVectorValue(Y_AXIS), pDriverControl->GetVectorValue(X_AXIS));
+
+		Lift->Set(-pDriverControl->GetLiftValue());
 
 		pEncoderPair->Update();
 
 		// The motors will be updated every 5ms
+		frc::DriverStation::ReportError(buf);
 		frc::Wait(0.005);
 	}
 }

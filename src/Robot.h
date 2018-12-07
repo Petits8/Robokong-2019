@@ -39,11 +39,10 @@ public:
 
 private:
 	// Robot drive system
-	frc::Spark m_leftMotor{0};
-	frc::Spark m_rightMotor{1};
-	frc::DifferentialDrive m_robotDrive{m_leftMotor, m_rightMotor};
 
-	frc::Joystick m_stick{0};
+
+
+
 
 	frc::SendableChooser<std::string> m_chooser;
 	const std::string kAutoNameDefault = "Default";

@@ -17,7 +17,7 @@
 class EncoderPair {
 private:
 	Encoder *rightEncoder, *leftEncoder;
-	frc::Timer::Timer *timer;
+	Timer *timer;
 	double timeInitial = 0.0;
 	double rightPositionDelta, leftPositionDelta, rightPositionInitial, leftPositionInitial, rightVelocity, leftVelocity;
 
