@@ -45,7 +45,7 @@ double DriverControl::GetVectorValue(int axis){
 
 
 		case X_AXIS:
-			return this->r_joystick.GetRawAxis(4);
+			return this->l_joystick.GetRawAxis(4);
 
 
 		case Z_AXIS:
