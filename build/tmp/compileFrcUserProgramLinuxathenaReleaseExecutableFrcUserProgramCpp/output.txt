@@ -1,0 +1,68 @@
+See file:///D:/c++%20Projects/Eclipse%20Workspace/Robokong-2019%20Eclipse%20Imported/Robokong-2019-Eclipse-Imported/build/tmp/compileFrcUserProgramLinuxathenaReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramLinuxathenaReleaseExecutableFrcUserProgramCpp.
+compiling EncoderPair.cpp successful.
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/Robot.h:13:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:11,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Drive/DifferentialDrive.h:14:2: warning: #warning is a GCC extension
+ #warning "Drive/DifferentialDrive.h is deprecated; include frc/drive/DifferentialDrive.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Drive/DifferentialDrive.h:14:2: warning: #warning "Drive/DifferentialDrive.h is deprecated; include frc/drive/DifferentialDrive.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/Robot.h:14:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:11,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Joystick.h:14:2: warning: #warning is a GCC extension
+ #warning "Joystick.h is deprecated; include frc/Joystick.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Joystick.h:14:2: warning: #warning "Joystick.h is deprecated; include frc/Joystick.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/Robot.h:15:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:11,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/SampleRobot.h:14:2: warning: #warning is a GCC extension
+ #warning "SampleRobot.h is deprecated; include frc/SampleRobot.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/SampleRobot.h:14:2: warning: #warning "SampleRobot.h is deprecated; include frc/SampleRobot.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/Robot.h:16:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:11,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/SmartDashboard/SendableChooser.h:14:2: warning: #warning is a GCC extension
+ #warning "smartdashboard/SendableChooser.h is deprecated; include frc/smartdashboard/SendableChooser.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/SmartDashboard/SendableChooser.h:14:2: warning: #warning "smartdashboard/SendableChooser.h is deprecated; include frc/smartdashboard/SendableChooser.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/Robot.h:17:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:11,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Spark.h:14:2: warning: #warning is a GCC extension
+ #warning "Spark.h is deprecated; include frc/Spark.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Spark.h:14:2: warning: #warning "Spark.h is deprecated; include frc/Spark.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:12:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Encoder.h:14:2: warning: #warning is a GCC extension
+ #warning "Encoder.h is deprecated; include frc/Encoder.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Encoder.h:14:2: warning: #warning "Encoder.h is deprecated; include frc/Encoder.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:13:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/DigitalInput.h:14:2: warning: #warning is a GCC extension
+ #warning "DigitalInput.h is deprecated; include frc/DigitalInput.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/DigitalInput.h:14:2: warning: #warning "DigitalInput.h is deprecated; include frc/DigitalInput.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:14:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Timer.h:14:2: warning: #warning is a GCC extension
+ #warning "Timer.h is deprecated; include frc/Timer.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/Timer.h:14:2: warning: #warning "Timer.h is deprecated; include frc/Timer.h instead" [-Wcpp]
+In file included from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp/EncoderPair.h:15:0,
+                 from D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:8:
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/DriverStation.h:14:2: warning: #warning is a GCC extension
+ #warning "DriverStation.h is deprecated; include frc/DriverStation.h instead"
+  ^~~~~~~
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\build\tmp\expandedArchives\wpilibc-cpp-2019.1.1-headers.zip_bbc5901b0e22ac527e7d642f2ec68009/DriverStation.h:14:2: warning: #warning "DriverStation.h is deprecated; include frc/DriverStation.h instead" [-Wcpp]
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp: In member function 'void EncoderPair::Update()':
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:47:60: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+   sprintf(buf, "R: %d - L: %d", rightVelocity, leftVelocity);
+                                                            ^
+D:\c++ Projects\Eclipse Workspace\Robokong-2019 Eclipse Imported\Robokong-2019-Eclipse-Imported\src\main\cpp\EncoderPair.cpp:47:60: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+
+Finished compileFrcUserProgramLinuxathenaReleaseExecutableFrcUserProgramCpp, see full log file:///D:/c++%20Projects/Eclipse%20Workspace/Robokong-2019%20Eclipse%20Imported/Robokong-2019-Eclipse-Imported/build/tmp/compileFrcUserProgramLinuxathenaReleaseExecutableFrcUserProgramCpp/output.txt.
