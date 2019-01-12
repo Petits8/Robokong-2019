@@ -35,7 +35,28 @@ double DriverControl::GetVectorValue(int axis){
 			return 0.0;
 
 		};
-	} else{ return 1.0; }
+	} else {
+			switch(axis){
+
+		case Y_AXIS:
+
+
+			return this->l_joystick.GetRawAxis(1);
+
+
+		case X_AXIS:
+			return this->r_joystick.GetRawAxis(4);
+
+
+		case Z_AXIS:
+
+		
+			return (this->l_joystick.GetZ()+this->r_joystick.GetZ())/2;
+		default:
+			return 0.0;
+
+		};
+	}
 }
 double DriverControl::GetLiftValue(){
 	return this->r_joystick.GetY();

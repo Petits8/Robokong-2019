@@ -30,7 +30,7 @@ frc::SpeedControllerGroup RightMotors(RightFrontMotor, RightRearMotor);
 frc::DifferentialDrive m_robotDrive{LeftMotors, RightMotors};
 
 EncoderPair *pEncoderPair = new EncoderPair(4, 5, 2, 3);
-DriverControl *pDriverControl = new DriverControl(true);
+DriverControl *pDriverControl = new DriverControl(false);
 
 frc::Spark *Lift = new frc::Spark(LIFTMOTOR);
 
