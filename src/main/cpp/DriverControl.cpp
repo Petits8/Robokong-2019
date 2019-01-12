@@ -35,7 +35,7 @@ double DriverControl::GetVectorValue(int axis){
 			return 0.0;
 
 		};
-	} else{ return 0.0; }
+	} else{ return 1.0; }
 }
 double DriverControl::GetLiftValue(){
 	return this->r_joystick.GetY();
