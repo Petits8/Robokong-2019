@@ -1,4 +1,4 @@
-See file:///D:/c++%20Projects/Eclipse%20Workspace/Robokong-2019%20Eclipse%20Imported/Robokong-2019-Eclipse-Imported/build/tmp/linkFrcUserProgramLinuxathenaReleaseExecutable/output.txt for all output for linkFrcUserProgramLinuxathenaReleaseExecutable.
+See file:///D:/c++%20Projects/Robocong-2019-Git/Robokong-2019/build/tmp/linkFrcUserProgramLinuxathenaReleaseExecutable/output.txt for all output for linkFrcUserProgramLinuxathenaReleaseExecutable.
 linking frcUserProgram successful.
 
-Finished linkFrcUserProgramLinuxathenaReleaseExecutable, see full log file:///D:/c++%20Projects/Eclipse%20Workspace/Robokong-2019%20Eclipse%20Imported/Robokong-2019-Eclipse-Imported/build/tmp/linkFrcUserProgramLinuxathenaReleaseExecutable/output.txt.
+Finished linkFrcUserProgramLinuxathenaReleaseExecutable, see full log file:///D:/c++%20Projects/Robocong-2019-Git/Robokong-2019/build/tmp/linkFrcUserProgramLinuxathenaReleaseExecutable/output.txt.

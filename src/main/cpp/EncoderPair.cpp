@@ -34,6 +34,8 @@ void EncoderPair::Update(){
 
 	rightPositionDelta = rightEncoder->GetDistance() - rightPositionInitial;
 	leftPositionDelta = leftEncoder->GetDistance() - leftPositionInitial;
+	rightPositionInitial = rightEncoder->GetDistance();
+	leftPositionInitial = leftEncoder->GetDistance();
 
 	double timeFinal = timer->Get();
 	double timeDelta = timeFinal - timeInitial;
@@ -44,7 +46,7 @@ void EncoderPair::Update(){
 		rightVelocity = rightPositionDelta/timeDelta;
 		leftVelocity = leftPositionDelta/timeDelta;
 
-		sprintf(buf, "R: %d - L: %d", rightVelocity, leftVelocity);
+		sprintf(buf, "R: %f - L: %f", rightVelocity, leftVelocity);
 
 		frc::DriverStation::ReportError(buf);
 
